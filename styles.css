@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  h1,h2,h3,h4{
+    display: block;
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.Terminos{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.horarios>h3{
+    gap: 5px;
+}
+.separador{
+    width: 100%;
+    height:10px;
+    border: 5px solid black;
+}
+
+footer{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.size{
+    font-size: 18px;
+}
